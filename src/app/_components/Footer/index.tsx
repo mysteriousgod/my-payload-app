@@ -31,7 +31,7 @@ export async function Footer() {
             <img
               className={classes.logo}
               alt="Payload Logo"
-              src="/abE7fe01.svg"
+              src="/favicon.svg"
             />
           </picture>
         </Link>

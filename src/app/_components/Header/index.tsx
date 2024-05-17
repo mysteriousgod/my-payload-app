@@ -37,7 +37,7 @@ export async function Header() {
             <img
               className={classes.logo}
               alt="Payload Logo"
-              src="/abE7fe01.svg"
+              src="/favicon.svg"
             />
           </Link>
           <HeaderNav header={header} />
