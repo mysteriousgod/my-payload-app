@@ -7,7 +7,7 @@ export const staticHome: Page = {
   createdAt: '',
   updatedAt: '',
   meta: {
-    title: 'Payload E-Commerce Template',
+    title: 'Talli Wears',
     description: 'An open-source e-commerce store built with Payload and Next.js.',
   },
   hero: {
@@ -16,7 +16,7 @@ export const staticHome: Page = {
       {
         children: [
           {
-            text: 'Payload E-commerce Template',
+            text: 'Talli Wears',
           },
         ],
         type: 'h1',
@@ -24,55 +24,55 @@ export const staticHome: Page = {
       {
         children: [
           {
-            text: 'Welcome to your e-commerce store! ',
+            text: 'Welcome to Talli Wears store. ',
           },
-          {
-            text: 'Your database is currently empty.',
-            bold: true,
-          },
-          {
-            text: ' To seed your database with a few products and pages, ',
-          },
-          {
-            type: 'link',
-            linkType: 'custom',
-            url: '/admin',
-            children: [
-              {
-                text: 'log in to the admin dashboard',
-              },
-            ],
-          },
-          {
-            text: ' and click "seed your database". If you have already seeded your database, ',
-          },
-          {
-            text: 'you may need to hard refresh this page to clear the cached request.',
-            bold: true,
-          },
+          // {
+          //   text: 'Your database is currently empty.',
+          //   bold: true,
+          // },
+          // {
+          //   text: ' To seed your database with a few products and pages, ',
+          // },
+          // {
+          //   type: 'link',
+          //   linkType: 'custom',
+          //   url: '/admin',
+          //   children: [
+          //     {
+          //       text: 'log in to the admin dashboard',
+          //     },
+          //   ],
+          // },
+          // {
+          //   text: ' and click "seed your database". If you have already seeded your database, ',
+          // },
+          // {
+          //   text: 'you may need to hard refresh this page to clear the cached request.',
+          //   bold: true,
+          // },
         ],
       },
-      {
-        children: [
-          {
-            text: 'The code for this template is completely open-source and can be found ',
-          },
-          {
-            type: 'link',
-            linkType: 'custom',
-            url: 'https://github.com/payloadcms/payload/tree/main/templates/ecommerce',
-            newTab: true,
-            children: [
-              {
-                text: 'here',
-              },
-            ],
-          },
-          {
-            text: '.',
-          },
-        ],
-      },
+      // {
+      //   children: [
+      //     {
+      //       text: 'The code for this template is completely open-source and can be found ',
+      //     },
+      //     {
+      //       type: 'link',
+      //       linkType: 'custom',
+      //       url: 'https://github.com/payloadcms/payload/tree/main/templates/ecommerce',
+      //       newTab: true,
+      //       children: [
+      //         {
+      //           text: 'here',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       text: '.',
+      //     },
+      //   ],
+      // },
     ],
     media: '',
   },
@@ -82,7 +82,7 @@ export const staticHome: Page = {
         {
           children: [
             {
-              text: 'Seed your database',
+              text: 'You do not have any account login',
             },
           ],
           type: 'h4',
@@ -90,20 +90,20 @@ export const staticHome: Page = {
         {
           children: [
             {
-              text: 'Your database is currently empty. To seed your database, ',
+              text: 'to buy product to continue to ',
             },
             {
               type: 'link',
               linkType: 'custom',
-              url: '/admin',
+              url: '/create-account',
               children: [
                 {
-                  text: 'log in to the admin dashboard',
+                  text: 'create account',
                 },
               ],
             },
             {
-              text: ' and click "seed your database".',
+              text: ' or just login',
             },
           ],
         },
@@ -112,8 +112,8 @@ export const staticHome: Page = {
         {
           link: {
             type: 'custom',
-            url: '/admin',
-            label: 'Go to dashboard',
+            url: '/login',
+            label: 'Login an account',
             appearance: 'primary',
             reference: null,
           },
