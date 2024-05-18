@@ -24,7 +24,7 @@ export const staticHome: Page = {
       {
         children: [
           {
-            text: 'Tlli Wears just regular text'
+            text: 'Tlli Wears just regular text',
           },
           // {
           //   text: 'Your database is currently empty.',
