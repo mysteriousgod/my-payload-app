@@ -24,7 +24,7 @@ export const staticHome: Page = {
       {
         children: [
           {
-            text:  "Welcome to Tlli Wears, your ultimate destination for fashionable clothing that reflects your individuality and keeps you ahead of the style curve. Our curated collection boasts a diverse range of trendy garments designed to cater to your fashion needs for every occasion. Dive into our selection of chic dresses, ranging from casual day dresses to elegant evening gowns, perfect for making a statement wherever you go. Whether you're attending a cocktail party or a casual brunch with friends, we have the perfect dress to match your vibe. Elevate your everyday look with our stylish tops, featuring on-trend designs and flattering silhouettes. From classic basics to fashion-forward statement pieces, our tops are crafted to enhance your personal style effortlessly.",
+            text: 'Tlli Wears just regular text'
           },
           // {
           //   text: 'Your database is currently empty.',
