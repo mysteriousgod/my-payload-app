@@ -1,30 +1,30 @@
-import type { Page } from '../payload-types'
+import type { Page } from "../payload-types";
 
 export const staticHome: Page = {
-  id: '',
-  title: 'Home',
-  slug: 'home',
-  createdAt: '',
-  updatedAt: '',
+  id: "",
+  title: "Home",
+  slug: "home",
+  createdAt: "",
+  updatedAt: "",
   meta: {
-    title: 'Talli Wears',
-    description: 'Clothing & Styling',
+    title: "Talli Wears",
+    description: "Clothing & Styling",
   },
   hero: {
-    type: 'lowImpact',
+    type: "lowImpact",
     richText: [
       {
         children: [
           {
-            text: 'Tlli Wears: Elevate Your Style with Trendy Clothing',
+            text: "Tlli Wears: Elevate Your Style with Trendy Clothing",
           },
         ],
-        type: 'h1',
+        type: "h1",
       },
       {
         children: [
           {
-            text: 'Tlli Wears just regular text',
+            text: "Tlli Wears just regular text",
           },
           // {
           //   text: 'Your database is currently empty.',
@@ -74,7 +74,7 @@ export const staticHome: Page = {
       //   ],
       // },
     ],
-    media: '',
+    media: "",
   },
   layout: [
     {
@@ -82,28 +82,28 @@ export const staticHome: Page = {
         {
           children: [
             {
-              text: 'You do not have any account login',
+              text: "You do not have any account login",
             },
           ],
-          type: 'h4',
+          type: "h4",
         },
         {
           children: [
             {
-              text: 'to buy product to continue to ',
+              text: "to buy product to continue to ",
             },
             {
-              type: 'link',
-              linkType: 'custom',
-              url: '/create-account',
+              type: "link",
+              linkType: "custom",
+              url: "/create-account",
               children: [
                 {
-                  text: 'create account',
+                  text: "create account",
                 },
               ],
             },
             {
-              text: ' or just login',
+              text: " or just login",
             },
           ],
         },
@@ -111,16 +111,16 @@ export const staticHome: Page = {
       links: [
         {
           link: {
-            type: 'custom',
-            url: '/login',
-            label: 'Login an account',
-            appearance: 'primary',
+            type: "custom",
+            url: "/login",
+            label: "Login an account",
+            appearance: "primary",
             reference: null,
           },
         },
       ],
-      blockName: 'CTA',
-      blockType: 'cta',
+      blockName: "CTA",
+      blockType: "cta",
     },
   ],
-}
+};
